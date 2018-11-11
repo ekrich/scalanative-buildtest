@@ -1,6 +1,6 @@
 The Scala Native `sbt-scala-native` plugin version 0.3.8 does not behave correctly when the `sbt-pgp` plugin
-version 1.1.1 has been added when using `sbt` 0.13.17. The example works fine using `sbt` 1.2.6 or using an older
-version of the `sbt-pgp` plugin such as 1.0.0.
+version 1.1.1 has been added when using `sbt` 0.13.17. The example works fine using `sbt` 1.2.6 or by using
+the `sbt-pgp` plugin version 1.0.0 which is the last version that worked.
 
 By changing the `project/build.properties` file to change the `sbt` version or by altering the `project/plugins.sbt`
 file to add, remove, or change version of the `sbt-pgp` you can see the behaviour using `sbt` 0.13.17.
